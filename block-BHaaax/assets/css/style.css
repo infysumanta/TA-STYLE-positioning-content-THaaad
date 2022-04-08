@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: rgb(69, 15, 155);
+  padding: 40px;
+  text-align: right;
+}
+
+.white {
+  color: white;
+}
+h1 {
+  font-size: 44px;
+  font-weight: bold;
+}
+nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+nav a:hover {
+  color: rgb(196, 231, 0);
+}
+.inline-block {
+  display: inline-block;
+}
+
+a {
+  margin-left: 40px;
+  text-decoration: none;
+  margin: 0 15px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: left;
+  margin-right: 40px;
+}
+h2 {
+  font-size: 44px;
+}
+article {
+  margin: 1.5%;
+  width: 47%;
+  display: inline-block;
+  vertical-align: top;
+}
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+footer {
+  text-align: center;
+  font-size: 24px;
+}
+img {
+  text-align: right;
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+
+main {
+  font-size: 0;
+}
+.brand-name {
+  width: 30%;
+  text-align: left;
+}
+
+.main-menu {
+  width: 67%;
+  text-align: right;
+}
