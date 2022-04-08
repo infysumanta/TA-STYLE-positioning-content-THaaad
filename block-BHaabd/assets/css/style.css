@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px 10px;
+  background-color: #efefef;
+}
+
+header {
+  text-align: center;
+  font-size: 50px;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+main {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 32px;
+  background-color: #fefefe;
+}
+main::before,
+main::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+main::after {
+  clear: both;
+}
+
+aside {
+  width: 15%;
+  margin: 1.5%;
+  padding: 10px;
+  float: left;
+}
+article {
+  width: 61%;
+  margin: 1.5%;
+  float: left;
+}
+img {
+  width: 100%;
+}
+p {
+  line-height: 1.5;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
