@@ -1,0 +1,69 @@
+header {
+  padding: 60px;
+  background-color: rgb(19, 87, 99);
+}
+footer {
+  font-size: 20px;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(19, 87, 99);
+}
+
+img {
+  width: 100%;
+  height: 300px;
+  border: 1px solid rgb(19, 87, 99);
+  border-radius: 5px;
+}
+
+.brand {
+  float: left;
+}
+.navigation {
+  float: right;
+}
+.brand h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.navigation nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 18px;
+  font-weight: bold;
+}
+.navigation nav a:hover {
+  color: rgb(0, 217, 255);
+}
+
+.post-container {
+  width: 1500px;
+  height: auto;
+  margin: 20px auto;
+}
+
+article {
+  vertical-align: top;
+  width: 480px;
+  height: auto;
+  float: left;
+  margin: 10px 10px;
+}
+.clearfix:after,
+clearfix:before {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+  line-height: 18px;
+}
