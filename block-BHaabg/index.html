@@ -1,15 +1,109 @@
-<!-- ### Exercise
+<!DOCTYPE html>
+<html lang="en">
 
-1. Create a simple page having a header, main content, and a footer.
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Positioning Content - Assignment II - (Gallery layout)</title>
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
 
-2. Inside the header keep the logo to the left and all the navigation to the right.
+    <body id="top">
+        <header>
+            <div class="container">
+                <a href="#">
+                    <img class="logo" src="./assets/images/logo.jpg" alt="brandlogo">
+                </a>
+                <nav class="nav">
+                    <a href="#">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#gallery">Gallery</a>
+                </nav>
+            </div>
+        </header>
+        <main id="about">
+            <section class="section">
+                <article>
+                    <h2> This is the Heading Line!!!!</h2> <br>
 
-3. The header must be fixed at the top of the page.
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum pariatur? Sequi minus,
+                        accusantium animi error nemo doloremque possimus totam consectetur, vero beatae unde
+                        consequatur, corrupti nobis accusamus harum excepturi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis eligendi alias
+                        facilis, nesciunt quis ab temporibus iusto amet quod? Placeat molestiae, ullam incidunt
+                        dignissimos quos commodi sequi. Facilis, quo!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis eligendi alias
+                        facilis, nesciunt quis ab temporibus iusto amet quod? Placeat molestiae, ullam incidunt
+                        dignissimos quos commodi sequi. Facilis, quo!
 
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, cum pariatur? Sequi minus,
+                        accusantium animi error nemo doloremque possimus totam consectetur, vero beatae unde
+                        consequatur, corrupti nobis accusamus harum excepturi.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis eligendi alias
+                        facilis, nesciunt quis ab temporibus iusto amet quod? Placeat molestiae, ullam incidunt
+                        dignissimos quos commodi sequi. Facilis, quo!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio perspiciatis eligendi alias
+                        facilis, nesciunt quis ab temporibus iusto amet quod? Placeat molestiae, ullam incidunt
+                        dignissimos quos commodi sequi. Facilis, quo!
 
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
+                    </p>
+                </article>
+                <article>
+                    <img class="article-image " src="./assets/images/article-image.jpg" alt="Travelworld">
+                </article>
 
-6. After the gallery section footer will come.
 
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+            </section>
+            <h1 class="page-header-gallery" id="gallery">Gallery</h1>
+            <section class="section">
+                <div class="container clearfix">
+                    <div class="col col-3">
+                        <a href="#">
+                            <img class="gallery" src="./assets/images/gallery1.jpg" alt="gallery">
+                        </a>
+                    </div>
+                    <div class="col col-3">
+                        <a href="#">
+                            <img class="gallery" src="./assets/images/gallery2.jpg" alt="gallery">
+                        </a>
+                    </div>
+                    <div class="col col-3">
+                        <a href="#">
+                            <img class="gallery" src="./assets/images/gallery3.jpg" alt="gallery">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="section">
+                <div class="container clearfix">
+                    <div class="col col-3">
+                        <a href="#">
+                            <img class="gallery" src="./assets/images/gallery4.jpg" alt="gallery">
+                        </a>
+                    </div>
+                    <div class="col col-3">
+                        <a href="#">
+                            <img class="gallery" src="./assets/images/gallery5.jpg" alt="gallery">
+                        </a>
+                    </div>
+                    <div class="col col-3">
+                        <a href="#">
+                            <img class="gallery" src="./assets/images/gallery6.jpg" alt="gallery">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            &copy; 2022 All rights reserved.
+        </footer>
+        <button type="button" class="go-to-top"> <a href="#">Top</a></button>
+
+    </body>
+
+</html>
